@@ -1,0 +1,144 @@
+
+
+/* NAVBAR
+-------------------------------------------------- */
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/* MARKETING
+-------------------------------------------------- */
+
+.marketing {
+  margin: 0 auto;
+  height: 300px;
+}
+
+h2 {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.row h3 {
+  margin: 10px auto;
+  float: center;
+}
+
+/* STICKY FOOTER
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-image: 
+    linear-gradient(
+      to right, 
+      #fdfcfb , #e2d1c3
+    );
+}
+
+.icon {
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.icon:hover {
+  transform: scale(1.05); 
+}
+
+.app-logo {
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+.app-logo:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 180, 0), rgba(0, 0, 180, 0.75), rgba(0, 0, 0, 0));
+}
+
+.container p {
+  font-size: 18px;
+}
+
+.middle {
+  margin: 10px auto;
+  width: 30%;
+}
+
+.main h3, .main, .main video {
+  text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.col-md-8 {
+  margin-top: 40px;
+}
+
+.col-md-8 p {
+  font-family: "Comic Sans MS", sans-serif, sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.gif {
+  margin: 5px;
+  border: 1px solid black;
+  width: 250px;
+  height: 444px;
+}
+
+.github {
+  height: 32px;
+  width: 32px;
+}
+.github:hover {
+  transform: scale(1.1);
+  /*box-shadow: 0 0 10px #000000;*/
+}
+
+.main {
+  padding: 30px 0 30px 0;
+}
+.main p {
+  width: 250px;
+  color: black;
+}
+
+.col-md-8 > p {
+  margin-top: 20px;
+}
+
+.icons {
+  width: 280px;
+  margin: 10px auto 40px auto;
+}
+
+.iphone {
+  background-image: url("images/iphone.png");
+  background-repeat:no-repeat;
+  overflow: hidden;
+  width: 294px;
+  height: 590px;
+  background-size: cover;
+  padding-top: 67px;
+  margin: 0 auto 15px auto;
+  padding-bottom: 15px;
+}
+
